@@ -11,9 +11,9 @@ namespace Baekjoon
     {
         static void Main(string []args) 
         {
-            string n = Console.ReadLine();
-            string[] num = n.Split();
-            Console.WriteLine(int.Parse(num[0]) - int.Parse(num[1]));
+            string n = Console.ReadLine(); // 변수에 입력값 저장
+            string[] num = n.Split(); // 공백을 기준으로 입력값 분리
+            Console.WriteLine(int.Parse(num[0]) - int.Parse(num[1])); // 출력
             
         }
     }

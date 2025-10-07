@@ -9,13 +9,16 @@ namespace Baekjoon
 {
     class Baekjoon1000 
     {
-        static void Main(string []args) 
+        static void Main(string[] args)
         {
-            string n = Console.ReadLine(); // n에 입력값 저장
-            string[] num = n.Split(); // 공백을 기준으로 숫자 분리
-            // 문자열을 분리했으니 자료형은 아직 문자열. 정수형 혹은 char로 바꿔줘야 계산이 가능함.
-            Console.WriteLine(int.Parse(num[0])+int.Parse(num[1])); // 정수형으로 바꾼 후 출력
-            
+            string n = Console.ReadLine();
+            // Console.ReadLine() 메서드를 이용하여 콘솔에서 입력받은 내용을 문자열로 저장.
+            string[] num = n.Split(); // 공백()을 기준으로 입력값 분리
+            // 문자열을 분리했으나 자료형은 아직 문자열. 정수형 혹은 char로 바꿔줘야 연산 후 출력이 가능함
+
+            Console.WriteLine(int.Parse(num[0]) + int.Parse(num[1]));
+            // int.Parse() 메서드를 이용하여 문자열을 정수형으로 변환후 출력
+
         }
     }
 }

@@ -11,10 +11,10 @@ namespace Baekjoon
     {
         static void Main(string []args) 
         {
-            string n = Console.ReadLine(); 
-            string[] num = n.Split(); // 여기까지의 설명은 1000번 A+B 참조.
-            Console.WriteLine(int.Parse(num[0]) * int.Parse(num[1]));
-            // 곱셈은 덧셈, 뺄셈과 다르게 평소 자주 쓰는 x가 아닌 *가 쓰입니다.
+            string n = Console.ReadLine(); // 변수에 입력값 저장
+            string[] num = n.Split(); // 공백을 기준으로 입력값 분리
+            Console.WriteLine(int.Parse(num[0]) * int.Parse(num[1])); // 출력
+            // 곱셈은 덧셈, 뺄셈과 다르게 현실에서 주로 쓰는 ×가 아닌 *가 쓰입니다.
             
         }
     }

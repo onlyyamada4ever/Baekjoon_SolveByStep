@@ -9,9 +9,12 @@ namespace Baekjoon
 {
     internal class Baekjoon2557
     {
-        static void Main(string []args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            // Console.WriteLine() 메서드를 아용하여 출력.
+            // Console.WriteLine()은 콘솔에 ( ) 안의 내용을 출력함.
+            // " " 안에 작성된 내용은 문자열(string)로 인식됨.
         }
     }
 }
