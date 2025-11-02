@@ -2,6 +2,7 @@
 // 1000번 A+B  
 // https://www.acmicpc.net/problem/1000 
 // 메모리 제한: 256 MB, 시간 제한: 1초  
+
 // 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
 
 using System;
