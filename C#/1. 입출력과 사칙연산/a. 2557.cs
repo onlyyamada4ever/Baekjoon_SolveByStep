@@ -10,11 +10,8 @@
 
 using System;
 namespace Baekjoon{
-    // Baekjoon namespace의
     class BaekjoonSBS{
-        // BaekjoonSBS class에서
         static void Main(string[] args){
-            // Main함수를 실행
             Console.WriteLine("Hello World!");
             // Console에 Hello World! 출력
         }
