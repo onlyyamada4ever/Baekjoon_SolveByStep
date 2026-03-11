@@ -11,7 +11,7 @@
 using System;
 namespace Baekjoon
 {
-    class BaekjoonSBS
+    class Baekjoon1008
     {
         static void Main(string[] args)
         {
@@ -21,4 +21,4 @@ namespace Baekjoon
         }
     }
 }
-// https://elifsblog.tistory.com/5
+// 풀이: https://elifsblog.tistory.com/5
