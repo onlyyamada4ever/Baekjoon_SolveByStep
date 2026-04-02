@@ -14,8 +14,7 @@ int main() {
   std::cout << "Hello World!";
   return 0;
 }
-/*
-stdio.h를 사용할 경우
+/* stdio.h를 사용할 경우
 #include <stdio.h>
 
 int main() {
@@ -23,7 +22,7 @@ int main() {
     return 0;
 }
 
-cstdio를 사용할 경우
+// cstdio를 사용할 경우
 #include <cstdio>
 
 int main() {
