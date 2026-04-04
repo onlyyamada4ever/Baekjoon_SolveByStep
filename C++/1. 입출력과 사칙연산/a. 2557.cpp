@@ -7,14 +7,16 @@
 // 문제 : Hello World! 를 출력하시오.
 // 입력 : 없음
 // 출력 : Hello World! 를 출력하시오
-
+// --------------------------------
 #include <iostream>
 
 int main() {
   std::cout << "Hello World!";
   return 0;
 }
+
 /* stdio.h를 사용할 경우
+--------------------
 #include <stdio.h>
 
 int main() {
@@ -23,6 +25,7 @@ int main() {
 }
 
 // cstdio를 사용할 경우
+--------------------
 #include <cstdio>
 
 int main() {

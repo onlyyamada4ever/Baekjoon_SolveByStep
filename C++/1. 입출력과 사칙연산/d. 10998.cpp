@@ -18,6 +18,7 @@ int main() {
     std::cout << A*B;
     return 0;
 }
+
 /* stdio.h를 사용할 경우
 #include <stdio.h>
 
